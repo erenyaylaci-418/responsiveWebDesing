@@ -1,0 +1,55 @@
+#header-img {
+  width: 40px;
+  height: 40px;
+}
+#nav-bar {
+  background: rgb(33, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 36, 0, 1) 0%,
+    rgba(9, 57, 121, 1) 0%,
+    rgba(0, 255, 230, 1) 100%
+  );
+}
+#nav-name {
+  font-size: 20px;
+  background: -webkit-linear-gradient(rgb(88, 204, 78), rgb(37, 209, 201));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body {
+  background: rgb(33, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 36, 0, 1) 0%,
+    rgba(9, 57, 121, 1) 0%,
+    rgba(0, 255, 230, 1) 100%
+  );
+}
+
+iframe {
+  position: relative;
+  top: 200;
+  width: 560;
+  height: 315;
+}
+#form-div{
+position: relative;
+top: 450;
+background: rgb(33, 36, 0);
+  background: linear-gradient(
+    -90deg,
+    rgba(33, 36, 0, 1) 0%,
+    rgba(9, 57, 121, 1) 0%,
+    rgba(0, 255, 230, 1) 100%
+  );
+}
+
+@media (max-width: 800px) {
+  iframe {
+    position: relative;
+    top: 200;
+    width: 400;
+    height: 300;
+  }
+}
